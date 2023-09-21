@@ -1,0 +1,6 @@
+---
+- name: connection
+  hosts: all
+  tasks:
+          - name: test connectivity
+            shell: yum update -y
